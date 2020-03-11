@@ -1,0 +1,74 @@
+/* Author--- Sumit Fulzele */
+
+body {
+	
+	text-align: center;
+	color: white; /* Text color. */
+	font-family: 'Avenir', sans-serif; /* Font: sans-serif included in case browser doesn't support first option. */
+	text-align: center;
+	color: white; /* Text color.
+	font-family: 'Avenir', sans-serif; /* Font: sans-serif included in case browser doesn't support first option. */
+	height: 100vh;
+	content: '';
+	height: 100vh;
+	width: 100wh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("background.jpg");	
+	animation: animate 10s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+		background-position: 0 0;
+	}
+	100%
+	{
+		background-position: 0 1200px;
+	}
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center !important;
+}
+
+h2 {
+	font-size: 40px;
+	text-align: center !important;
+}
+
+
+
+/* This just centers the header container vertically on the page. */
+.container-fluid  {
+	height: 200px;
+	width: 100%;
+	position: relative;
+	top: 100px;
+	bottom: 0;
+	left: 320px;
+	right: 0;
+	/* margin: center; */
+}
+
+.text {
+	position: relative;
+	left: 110px;
+}
+/* Styling for icons. */
+.fa {
+	color: white;
+	margin: 10px 5px;
+	font-size: 3em !important;
+	position: relative;
+	left: 100px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
